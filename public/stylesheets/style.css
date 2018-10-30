@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Poppins;
+    text-align: center;
+    font-size: 18px;
+    max-width: 100%;
+    position: absolute;
+    /* background-color: #fdfdfd */
+}
+
+
+section {
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+
+#landing-page {  
+    background: url(../images/adventure-albay-clouds-672358.jpg) 50% 50% no-repeat;
+    background-size: cover;
+    max-width: 100%;
+}
+
+#landing-page h2 {
+    margin: 0;
+    padding: 0;     
+    padding-top: 220px;
+    font-size: 3em;
+    color: black;
+}
+
+
+
+
+h1 {
+    background-color: aqua;
+    max-width: 90%;
+    margin: auto;
+}
+
+
+.cont1 a {
+    text-decoration: none;
+
+}
+
+
+
+.cont1 img:hover {
+
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 1);
+    /*            opacity: 0.7;*/
+}
+
+h3 {
+    color: black;
+    margin: 5px;
+
+}
+
+
+.cont1 a img {
+    height: 330px;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 10px 1px rgba(0, 140, 186, 0.5);
+    border-radius: 50px;
+
+}
+
+
+
+.cont1 {
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*
+.cont1 a:hover {
+                opacity: .8;
+}
+*/
+.link h3{
+    padding-bottom: 20px;
+
+}
+.cont1 a:hover {
+    animation: bloom ease-in-out 1s;
+}
+
+@keyframes bloom {
+    0% {
+        opacity: .2;
+        filter: grayscale(1);
+    }
+    40% {
+        opacity: .6;
+        filter: grayscale(.5);
+    }
+    100% {
+        opacity: 1;
+        filter: grayscale(0);
+    }
+}
+
+
+.img1 a img {
+    height: 90vh;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 1199px) {
+    .cont1{
+        padding: 30px;
+    }
+    
+    .cont1 a img {
+        width: 90%;
+        height: 50vw;
+    }    
+
+}
+
+@media only screen and (max-width: 700px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .cont1{
+        padding: 0;
+        max-width: 100%;
+        margin: auto;
+    }
+    .cont1 img{
+        max-width: 100%;
+        
+    }
+    
+    .cont1 a img {
+        width: 90%;
+        height: 60vw;
+}    
+
+
+}
+
+
+
+

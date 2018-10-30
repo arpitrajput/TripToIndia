@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="stylesheets/nav.css">
+
+
+</head>
+
+<body>
+    <div id="menu" onclick="menu()">
+        <img class="menuicon" src="icons8-menu-50.png">
+    </div>
+    <div class="nav" id="navbar">
+
+        <a href="#">Home
+        </a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">xyz</a>
+
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        window.onscroll = function() {
+            scroll()
+        };
+
+        function scroll() {
+            {
+                document.getElementById("navbar").style.display = "none";
+                document.getElementById("menu").style.display = "block";
+            }
+
+        }
+
+        function menu() {
+            document.getElementById("navbar").style.display = "flex";
+            document.getElementById("menu").style.display = "none";
+
+        }
+
+    </script>
+
+
+    <script>
+        $(document).animateScroll();
+
+    </script>
+
+</body>
+
+</html>
