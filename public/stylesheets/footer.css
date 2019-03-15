@@ -2,7 +2,9 @@
     background-color: black;
     height: auto;
     margin-bottom: 0px;
-   margin-top: 100%;
+    margin-top:2%;
+    font-family:serif;
+    height: 300px;
 }
 .fa{
     
@@ -19,15 +21,6 @@
     color: white;
     font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
 
 
 
