@@ -1,41 +1,41 @@
-.footer{
-    background-color: rgba(0, 0,0, .95);
+.footer {
+    background-color: rgba(0, 0, 0, .95);
     height: auto;
     margin-bottom: 0px;
-    margin-top:4%;
-    font-family:serif;
+    margin-top: 4%;
+    font-family: serif;
     padding: 1%;
-    padding-bottom:7%;
+    padding-bottom: 7%;
     text-align: center;
     color: deepskyblue;
 }
 
-.fa{
+.fa {
     width: 25px;
     height: 25px;
     padding: 25px;
     font-size: 20px;
 }
 
-.social-media{
+.social-media {
     text-align: center;
 }
 
-.social-media a:hover{
+.social-media a:hover {
     color: white;
     text-decoration: none;
 }
 
-.footer .row h4{
+.footer .row h4 {
     color: white;
     font-size: 20px;
 }
 
-.footer div span{
-    font-size:1.4em;
+.footer div span {
+    font-size: 1.4em;
 }
 
-.footer .aboutFooter{
+.footer .aboutFooter {
     text-align: justify;
 }
 
